@@ -1,0 +1,47 @@
+.title{
+    text-align: center;
+}
+.column{
+    max-width:650px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.label{
+    text-align: center;
+}
+
+ .nau{
+display: none;
+/* visibility:hidden;  */
+
+}
+.rus{
+    display: none;
+}
+.art{
+        display: none; 
+}
+.tim{
+    display: none; 
+}
+.samr{
+    display: none; 
+}
+.kabl{
+    display: none; 
+}
+.eroha{
+    display: none;
+}
+.bau{
+    display: none;
+}
+
+.bak{
+    display: none;
+}
+
+.kukish{
+    display: none;
+}
