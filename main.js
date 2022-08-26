@@ -11,7 +11,7 @@ let kabl = document.querySelector('.kabl');
 let eroha = document.querySelector('.eroha');
 let bau = document.querySelector('.bau');
 // let bak = document.querySelector('.bak');
-let kukish = document.querySelector('.kukish');
+
 
 let photo = '';
 btn.onclick = function () {
@@ -25,9 +25,7 @@ btn.onclick = function () {
     if(num == 'eroha' || num == 'Eroha' || num == 'Ermaganbet' || num == 'Ермаганбет' || num == 'ермаганбет'){eroha.classList.toggle('eroha');}
     if(num == 'bauyrzhan' || num == 'Bauyrzhan' || num == 'bau' || num == 'Bau' || num == 'Бауыржан' || num == 'бауыржан'){bau.classList.toggle('bau');}
     // if(num == 'baglan' || num == 'Баглан' || 'Baglan' || num == 'Бакош' || num == 'баглан'){bak.classList.toggle('bak');}
-else {
-    kukish.classList.toggle('kukish');
-}
+
     // out1.innerHTML = photo;
 }
 
